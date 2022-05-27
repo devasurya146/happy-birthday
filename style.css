@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: '',sans-serif;
+   
+}
+
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*----------navbar-----*/
+.bold{
+    font-size: 16px;
+    
+}
+li{
+    padding: 5px;
+    
+}
+.nav-link{
+    font-weight: bold;
+    border: 2px solid transparent;
+    font-size: 15px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid rgb(9, 103, 190);
+    transition: .05s;
+}
+span{
+    padding: 4px;
+   
+    margin: 2px;
+    color: rgba(75, 75, 75, 0.959);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#navbar{
+    background-color: rgb(211, 195, 172);
+    width: 100%;
+    color: rgb(128, 70, 70);
+    padding: 5px;
+    border-radius: 0 0 20px 20px ;
+}
+
+/*----home----*/
+
+h1 span{
+    color: rgba(11, 11, 211, 0.781);
+}
+p h3{
+    
+}
+i{
+    color: rgb(255, 0, 212);
+    font-size: 18px;
+    text-shadow: 2px 1px 2px 2px rgb(255, 3, 3);
+}
+p{
+    font-size: 18px;
+}
+b{
+    font-weight: bold;
+    color: rgb(228, 141, 27);
+}
+
+/*Memories*/
+
+.card img{
+    height: 350px;
+    transition: 1s;
+}
+.inner{
+    overflow: hidden;
+    
+}
+.memor{
+    height: 500px;
+    width: 500px;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+/*video*/
+video.vdo{
+    height: 300px;
+    width: 300px;
+}
+.bestie{
+    height: 700px;
+    width: 500px;
+}
+h1{
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+
+}
+h5 {
+    color: blue;
+    font-weight: bold;
+}
+p{
+    color: rgb(102, 46, 46);
+    font-size: 18px;
+}
+.text{
+    color: rgba(63, 41, 41, 0.842);
+}
+.footer{
+    color: white;
+}
+
+
