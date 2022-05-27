@@ -1,49 +1,450 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Javascript Login Form Validation</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birth Day</title>
 
-<link rel="stylesheet" href="login.css"/>
 
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Surprise.html">
 
 </head>
 <body>
-<div class="container">
-<div class="main">
-<h2>Login</h2>
-<form id="form_id" method="post" name="myform">
-<label>User Name :</label>
-<input type="text" name="username" id="username"/>
-<label>Password :</label>
-<input type="password" name="password" id="password"/>
-<input type="button" value="Login" id="submit" onclick="validate()"/>
-</form>
-<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Kuzhali<br/>Password : Kuttycute@05</b></span>
-</div>
-</div>
+    <!---nav bar--->
+  
+    <div class="container-fluid col-10">
+        <nav class="navbar navbar-expand-lg " id="navbar">
+            <div class="container-fluid">
+            <b class="bold"><span>Kutty</span>Cute</b>
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav  ms-auto mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro">Intro</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Memories">Memories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Funny">Moments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#End">Sothappal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Footer">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <!---home-->
+
+        <section id="home">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 pt-5 order-sm-1">
+                    <h1 class="display-4">Welcome <span>Diiiii!</span></h1>
+                    <p class="my-lg-2 mg-2"><span>Happy birthday</span> to my torture eh !!. <br>
+                        <video class="vdo" src="/web/img/eee.mp4" alt="video"></video><br>
+
+                        Best wishes for your future.Fradu en uyira vangurthukune kooda iruka.<i><br><br>
+                        "Always remember how much you are loved by the people around you. Enjoy this special day my Friend."
+                         </i><br><br>
+                         Nee melum melum ennodu sernthu naasamaga poga ennoda vazhthukkal.
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-sm-2">
+                    <video  src="/web/img/video 1.mp4" alt="video"></video>
+                </div>
+            </div>
+        </section>
+
+        <!---intro-->
 
 
-<script>
-    var attempt = 3; 
-function validate(){
-var username = document.getElementById("username").value;
-var password = document.getElementById("password").value;
-if ( username == "Kuzhali" && password == "Kuttycute@05"){
-alert ("Login successfully");
-window.location = "index.html"; 
-return false;
-}
-else{
-attempt --;
-alert("You have left "+attempt+" attempt;");
+        <section id="intro">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 pt-5 order-sm-2">
+                    <h1 class="display-4 "><b>INTRO</b></h1>
+                    <p class="my-lg-2 mg-2">Naan unna mathiri oru paithiyam kooda frd ah irupanu nenachi kooda pakkala. <br>
+                        <video class="vdo" src="/web/img/frd.mp4" alt="video"></video><br>
+                        Naa clg vanthu evlo per kooda palagunalum na salikama pesura ore aal nee mattum than. 
+                        Evlo neramm pesunalum excitement mattum unkitta enaku koranchathe illa. <br>
+                        Un kooda pesuna ovoru  second um ovoru moment umenaku special than irunthurukka.
+                        Nee Pone panna adutha sec a enaku ethavathu depression iruntha poirum. <br>
+                        <video class="vdo" src="/web/img/video3.mp4" alt="video"></video> 
+                        <h3 >STRESS BUSTER</h3><br><br>
+                        Nammaloda friendship evlo thooram pogumnu thrla . But life long ithey mathiri en frd ah nee kooda irukanum nu nenakiran.
+                        Intha lap la speaker sariya work aagala so unkitta headset or speaker iruntha pottu kelu.
+                    </p>
+                        
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-sm-1">
+                    <video  src="/web/img/paithiyam.mp4" alt="paithiyam"></video>
+                </div>
+            </div>
+        </section>
+        
+        <!--memories-->
+        <section id="Memories">
+            <div class="row">
+                
+                    <h1 class="display-4">Memories</h1>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mome 1.jpg" class="card-img-top rounded"></div>
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">First Selfie</h5>
+                                <card class="text">03-04-2019(Wed) Intha pic than ellathukum kaaranam d. 
+                                    ippa naanum neeum onna irunthu naasama porathuku intha pic than kaaranam.
+                                    Annaki pesama bus eri poiruntha na ipdi un imsai irunthurukuma
+                                </card>
+                            </div>
+                        </div>
+                    </div>
 
-if( attempt == 0){
-document.getElementById("username").disabled = true;
-document.getElementById("password").disabled = true;
-document.getElementById("submit").disabled = true;
-return false;
-}
-}
-}
-</script>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mm 14.jpg" class="card-img-top rounded"></div>       
+                            <div class="card-body">
+                                <h5 class="card-title">When you came home</h5>
+                                <card class="text">14-04-2019 (sun) Annaki nee en v2ku first time vantha.  
+                                    Neeum naanum close kooda aagala appo. but ne vantha antha day enaku romba special one.
+                                    Once again nee v2ku kandippa varanum amma unna vara solli sollite irukanga.
+                                    
+                                </card>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mome 2.jpg" class="card-img-top rounded"></div>
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">First Meet</h5>
+                                <card class="text">05-01-2020 (Sat) Nammaloda first outing .Big temple poitu mani mandapathula vanthu 
+                                    ukkanthurunthom. Annaki aarambicha selavu innum nikkala. Athuku aprm naama many times veila meet pannirukom.
+                                    But Antha day most memorable day enaku. 
+                                </card>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mm 13.jpg" class="card-img-top rounded"></div>
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">At gandarvakkottai</h5>
+                                <card class="text">13-03-2020 (Fri) Annaki unga athai v2ku porathukaga gandarvakkottai vantha . 
+                                    Neeum naanum Pani poori saptutu bus stand la ukkanthuronthom. 
+                                </card>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/bg.jpg" class="card-img-top rounded"></div>
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">First Time saree la</h5>
+                                <card class="text">11-05-2022(wed) Ithan unna first time saree la patha naal.
+                                    ippa edutha pic than but after long days ithu best Memories ah irukum. 
+                                    Unaku saree set aagala (Bootham) . Ini ipdi saree katti paya moorathatha. 
+                                </card>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mm.jpg" class="card-img-top rounded"></div>
+                            
+                            <div class="card-body">
+                                <h5 class="card-title">When I came to your home</h5>
+                                <card class="text">19-09-2020(sat) Unexpected meet annaki. entha plan um illama un v2ku vantha with family ooda. 
+                                    Ne romba nervous aagitta . 10 min than irunthurupom aana sema happy . 
+                                    Lockdown la unna pathathu than innum santhosam enaku. aana first time vantha enaku 
+                                    oru sombu thanni kooda kodukalaye dii nee.
+                                </card>
+                                
+                            </div>                                                              
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 ">
+                                
+                            <p class="my-lg-2 mg-2">Intha mathiri evlavo memories iruku namma frdship kulla
+                                but athellam add pandra alavuku enkitta time illa . So enaku best ah therincha oru silatha mattum add pannirukka . 
+                                Ithula vara ethuvume onnuku onnu salachathu illa apdi oru best moment ellame.
+                                <div class="memor"><img src="img/memor.jpg" class="card-img-top rounded"></div>
+                            </p>
+                        
+                        </div>              
+            </div>
+        </section><br><br><br>
+        <!---about-->
+        <section id="About">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 pt-5 order-sm-1">
+                    <h1 class="display-4">About our freindship</h1>
+                    <p class="my-lg-2 mg-2">Neeum naanum epdi ivlo close ah aanomne thrla. 
+                        aana nee en mela na expect panna mudiyatha alavuku en mela paasam vachiruka. 
+                        Ennoda feeling purinchi enkitta pesa nenacha first person neethan. 
+                        Apdi iruka unna na eppavum vida koodathunu nenakira. <br>
+                        <video class="vdo" src="/web/img/video2.mp4" alt="video"></video> <br><br>
+                        Unkitta pesi konja naal vara nee silent girl nu nenachitu iruntha. 
+                        but na arear vachathuku enna thittuna paaru ,emma ah antha time ponna iva nu nenacha. <br>
+                        <video class="vdo" src="/web/img/kanja.mp4" alt="video"></video><br>
+                        Da sollatha nee da pottu thittuna . athan first time nee enkooda sanda pottathu. 
+                        Athula irunthu ippa vara na thittu vangurathu nikkave illa.
+                        Athellam vida ippellam bad word use panni thittura vera. <br>
+                        
+                        <br><br>
+                        Enaku unkitta romba pudichathe unnoda paithiya kaara thana pechu than. 
+                        na enna soldrane kathula vangama enna thittitu iruppa. Eppa pathalum noi noi nu 
+                        ethavathu solite iruppa . Sappada pathiye pesi atha vanki kodu itha vanki kodu nu solli 
+                        solli oru vali aakita enna. <br>
+                        <video class="vdo" src="/web/img/food.mp4" alt="video"></video> <br>
+                         itha padikum pothu kooda un frds kitta solluva thane 
+                        ivan onnum vanki thara mattanu. 
+                        <br><br>
+                        Evlavo days na unna ala vachirukka athukaga enmela kova padu aana oru naalum veruthuratha. 
+                        konja naala na unna neraya hurt panniruka enaku therium . aana ethu ethuvum 
+                        unna pudikama illa unkitta thane apdi sanda poda mudium nu than. Unna eppavum 
+                        ethukagavum mathavanga kitta vittu kodukka  matta. Unaku ithu kandippa purium.Naa evlo 
+                        sanda pottalum nee en kojukura. <br>
+                        <video class="vdo" src="/web/img/Avalo vekkama irruntha vesham koodichitu sethuponga seeman funny comedy speech Video meme Templates ( 720 X 1280 ).mp4" alt="video"></video> 
+                        <br><br>
+                        02-08-2021 annaki namakulla vantha fight la na unna romba hurt pannita . 
+                        3 days ku mela nee enkitta pesave illa . 
+                        unna purinchikama romba athigama pesitta . unkitta apdi pesittanu thookamum varala
+                        thoonguna konja neramum drm la neetha vantha .
+                        <br><br>
+                        Enaku enna type pandrathune thrla. avlo iruku ,eppavum nee onnu enkitta solluvalla ,
+                        Enna nee purinchikave mattiyanu ini na unna kandippa purichikuran.
+                        Unkittaini theva illama question kettu sanda poda matta. <br>
+                        <video class="vdo" src="/web/img/Namma yaru vambukum porathu ila ( 240 X 320 ).mp4" alt="video"></video> <br>
+                    </p>
+                        
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-sm-2">
+                    <video class="bestie" src="/web/img/bestie.mp4" alt="paithiyam"></video>
+                    <video class="bestie" src="/web/img/love.mp4" alt="paithiyam"></video>
+                    
+                </div>
+            </div>
+        </section><br><br><br>
+
+        <!---Funny-->
+
+        <section id="Funny">
+            <div class="row">
+                
+                    <h1 class="display-4">Funny and Best</h1>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mm 1.jpg" class="card-img-top rounded"></div>                           
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mm 4.jpg" class="card-img-top rounded"></div>                           
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mm 11.jpg" class="card-img-top rounded"></div>                           
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mem 3~2.jpg" class="card-img-top rounded"></div>                           
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mem 4~2.jpg" class="card-img-top rounded"></div>                           
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mem 9.jpg" class="card-img-top rounded"></div>                           
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mm 12.jpg" class="card-img-top rounded"></div>                           
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mm 5.jpg" class="card-img-top rounded"></div>                           
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <div class="card shadow">
+                            <div class="inner"><img src="img/mem `10.jpg" class="card-img-top rounded"></div>                           
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-12 ">
+                                
+                        <p class="my-lg-2 mg-2">
+
+                        </p>
+                    
+                    </div>     
+                    
+            </div>
+        </section>
+
+        <!---finishing page-->
+
+        <section id="End">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12 pt-5 order-sm-1">
+                    <h1 class="display-4">Birthday plan Sothappal</h1>
+                    <p class="my-lg-2 mg-2">Unaku intha birthday va marakka mudiyatha alavuku special ah kamikanumnu nenacha. 
+                        aana athu ethuvume nadakala. Last 20 days ku munnadiye neraya plan vachiruntha aan symposium 
+                        namakulla vantha fight aprm thiruvizhala ellam vanthu mothama sothappiruchi. 
+                        <br><br>
+                        Intha birthday ku unaku ethavathu seiyanumnu thonite irunthuchi . 
+                        Athan intha mathiri oru web page ah create pannuvomnu idea vanthuchi. 
+                        ithuvume neraya imagination la vachiruntha neraya templates podanum fun ah anupanumnu aana athuvum 
+                        sothappiruchi. <br><br>
+                        Neraya spelling mistake irukum nu nenakira . 
+                        Two days ah enna pannuvomnu theriyama kannu mulichi itha panniruka . Na itha kasta pattuthan panna.
+                        padicha ellam maranthuruchi marupadium ellathaium refer panni pandrathukulla time speed ah poiruthu.
+                        Ennala unaku gift than panna mudiyala . unake therium thiruvizhala kaga 
+                        10000 um selavu aagiruchi. athanala plan ellam sothappiruchi.
+                        Itha crt time la panni mudikka mudiumanu thrla . Crt time la varalanalum itha nee accept pannika.
+                        <br><br>
+                        Mela ulla video va play  panna mudiyalana right click panni SHOW ALL CONTROL kodu varum.
+                        Ennala periya level la resposive aana website create panna mudiyalanalum irukura 
+                        two days la evlo add panna mudiumo evlo solla mudiumo ennoda feeling ah avlo sollirukanu nenakiran.
+
+                    </p>
+                        
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-sm-2">
+
+                </div>
+            </div>
+        </section>
+        <!--Footer-->
+        <section id="Footer">
+        <footer class="bg-dark text-white pt-5 pb-4">
+            <div class="container text-center text-md-left">
+                <div class="row text-center text-md-left">
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                            DETAILS
+                        </h5>
+                        <p class="footer">
+                            POONKUZHALI K <br>2118g,Ramzam thaikal <br>Kattumannar koil <br>Chithambaram-608301
+                        </p>
+                    </div>
+                    
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+                            CONTACT
+                        </h5>
+                        <p class="footer">
+                            <i class='fas fa-envelope-open'>6369313679</i></p>
+                          <p class="footer">
+                            <i class="fas fa-home">poonkuzhali.ku@gmail.com</i>  
+                          </p>
+                          <p class="footer">
+                            <i class="fas fa-home">kuzhali_05</i>  
+                          </p>
+                          
+                        
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                       <div class="container">
+                            <div class="main">
+                                <h2>login</h2>
+                                <form id="form_id" method="post" name="myform">
+                                    <label>User Name :</label><br>
+                                    <input type="text" name="username" id="username"/><br>
+                                    <label>Password :</label><br>
+                                    <input type="password" name="password" id="password"/><br>
+                                    <input type="button" value="Login" id="submit" onclick="validate()"/>
+                                </form>
+
+                            </div>
+                        </div>
+            
+                    </div>
+                    <div class="col-md-7 col-lg-8">
+                        <p class="footer">Copyright @2022kuzhali All rights reserved by:
+                            <a href="" style="direction: none;">
+                            <strong class="text-warning ">DUPUKKU</strong></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+
+    </section>
+    <script>
+        var attempt = 3; 
+    function validate(){
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    if ( username == "Kuzhali" && password == "Kuttycute@05"){
+    alert ("Login successfully");
+    window.location = "Surprise.html"; 
+    return false;
+    }
+    else{
+    attempt --;
+    alert("You have left "+attempt+" attempt;");
+    
+    if( attempt == 0){
+    document.getElementById("username").disabled = true;
+    document.getElementById("password").disabled = true;
+    document.getElementById("submit").disabled = true;
+    return false;
+    }
+    }
+    }
+    </script>
+    <script src="../js/bootstrap.bundle.js"></script>
+
 </body>
 </html>
